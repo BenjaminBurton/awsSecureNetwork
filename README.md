@@ -4,7 +4,7 @@
 
 1. Create an AWS KMS customer master key (CMK) for encrypting your network traffic. You can do this with the following command:
 
-```sh
+```yaml
 aws kms create-key --description "My network encryption key"
 ```
 
